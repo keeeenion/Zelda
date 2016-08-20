@@ -7,7 +7,7 @@ using System.Web.Mvc;
 namespace Zelda.Controllers {
 	public class HomeController : Controller {
 		public ActionResult Index() {
-			ViewBag.Title = "Home Page";
+			ViewBag.Title = "Zelda";
 
 			return View();
 		}

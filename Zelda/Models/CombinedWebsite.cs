@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace Zelda.Models {
 	public class CombinedWebsite {
@@ -12,6 +15,6 @@ namespace Zelda.Models {
 		public int Score { get; set; }
 		public string[] Title { get; set; }
 		public Categories?[] Category { get; set; }
-
 	}
+
 }
